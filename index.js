@@ -36,7 +36,7 @@ app.use(
       maxAge: 1000 * 60 * 100,
     },
     store: MongoStore.create({
-      mongoUrl: MONGODB_URL,
+      mongoUrl: "mongodb+srv://singhjagdish5200:Jiggy5200@cluster0.jn4x85w.mongodb.net/placement?retryWrites=true&w=majority",
       autoRemove: "disabled",
     }),
     function(err) {
